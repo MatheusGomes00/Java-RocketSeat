@@ -1,0 +1,49 @@
+Recomendação: Ao criar o seu projeto no Spring Initializr, 
+adicione a dependência Spring Boot DevTools, para habilitar 
+o live reload da aplicação.
+
+
+spring initializr - https://start.spring.io/
+
+iniciando o projeto - criando sua estrutura
+
+Selecionar o tipo de projeto, a linguagem, a versão do spring boot;
+Project Metadata - informações do projeto:
+group: usa-se o domínio de traz  para frente por convenção --> br.com.danieleleao
+artfact: nome do projeto
+name: nome do projeto
+description: descrição do projeto
+packaging: JAR -> executavel genérico ou WAR executavel web
+
+Dependencies: selecionar a dependencia necessária pro projeto
+
+Generate: gera um arquivo zip, só descompactar na pasta referente e codar
+
+controller: componenete que é designada a primeira camada de acesso do usuário com a aplicação
+e direcionar a requisição de entrada; processa as requisições HTTP e atua como primeira camada
+de acesso do usuário à aplicação.
+
+
+    Quando um atributo de uma classe está definido como "private" significa que
+    o atributo pode ser acessado apenas pela própria classe.
+
+    Para acessar atributos dentro de uma classe definida como "private" utilizamos
+    métodos públicos na classe que retornam ou modificam o atributo. "Getters" e "Setters".
+
+    "Getters" são usados para recuperar valores de atributos de uma classe.
+    "Setters" são usados para definir valores para atributos de uma classe.
+
+    A função da annotation "@RequestBody" no Spring Boot indica que os dados da requisição
+    estarão no corpo da mensagem e serão convertidos para o objeto especificado no parâmetro
+    do método.
+
+    "Lombok" é uma biblioteca que facilita a criação de "Getters" e "Setters", no java
+    entre outros métodos.
+
+    A função annotation "@Data" do "Lombok" facilita a criação de "Getters" e "Setters" para 
+    todos os atributos de uma classe.
+
+    O "Spring Data JPA" é uma biblioteca de persistência que facilita a comunicação com o banco
+    de dados em uma aplicação "Spring Boot".
+
+ 
