@@ -9,7 +9,7 @@ iniciando o projeto - criando sua estrutura
 
 Selecionar o tipo de projeto, a linguagem, a versão do spring boot;
 Project Metadata - informações do projeto:
-group: usa-se o domínio de traz  para frente por convenção --> br.com.danieleleao
+group: usa-se o domínio de traz  para frente por convenção --> br.com.matheusgomes
 artfact: nome do projeto
 name: nome do projeto
 description: descrição do projeto
